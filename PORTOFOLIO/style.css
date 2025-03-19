@@ -95,7 +95,7 @@ nav ul li a {
     font-size: 3rem;
     font-weight: 700;
     margin: 0.5rem 0 1rem;
-    color: rgb(56, 69, 56);
+    color: rgb(61, 71, 57);
 }
 
 .home-right img {
@@ -224,7 +224,7 @@ section {
 .skills {
     padding: 60px 15%;
     background-color: #ffffff;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 10px rgb(232, 12, 133);
 }
 
 .section-heading {
@@ -274,39 +274,22 @@ h2 {
 }
 
 /* Warna untuk masing-masing skill dan sesuai persentase */
-.progress-bar.adobe-illustrator {
-    background-color: #a4bda4;
-    width: 85%;
+.progress-bar.sleep {
+    background-color: #c2c3fff1;
+    width: 99%;
 }
 
-.progress-bar.adobe-after-effects {
-    background-color: #a4bda4;
-    width: 75%;
+.progress-bar.eat {
+    background-color: #bacdfff1;
+    width: 93%;
 }
 
-.progress-bar.videography {
-    background-color: #a4bda4;
-    width: 80%;
+.progress-bar.playing {
+    background-color: #c7c6fff1;
+    width: 82%;
 }
 
-.progress-bar.html {
-    background-color: #a4bda4;
-    width: 80%;
-}
 
-.progress-bar.figma {
-    background-color: #a4bda4;
-    width: 85%;
-}
-
-.progress-bar.communication {
-    background-color: #a4bda4;
-    width: 80%;
-}
-
-.progress-bar.creativity {
-    background-color: #a4bda4;
-    width: 85%;
 }
 
 h3 {
@@ -372,7 +355,21 @@ button {
 button:hover {
     background-color: #909491;
 }
+.quote-section {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    font-style: italic;
+    color: #333;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
 
+.quote-section:hover {
+    background-color: #e0e0e0;
+}
 
 /* footer */
 footer {
